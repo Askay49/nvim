@@ -6,7 +6,6 @@ lspconfig.pyright.setup {}
 lspconfig.clangd.setup{}
 lspconfig.tsserver.setup {}
 lspconfig.prismals.setup {}
-lspconfig.lua.setup{}
 lspconfig.cssls.setup {
     capabilities = capabilities
 }
