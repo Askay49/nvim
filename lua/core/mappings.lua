@@ -15,6 +15,7 @@ vim.keymap.set({'n','v'}, '<leader>/', ':CommentToggle<CR>')
 -- Splits
 vim.keymap.set('n', '\\', ':vsplit<CR>')
 vim.keymap.set('n', '|', ':split<CR>')
+vim.keymap.set('n', '<leader>q', ':wincmd q<CR>')
 
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')
